@@ -1,10 +1,11 @@
 *{
     margin: 0;
+    font-family: cursive;
 }
 
 header{
+    color: #fff;
     height: 20vh;
-    background-image: url(../task2/design1_image2.jpg);
 }
 header *{
     display: inline-block;
@@ -12,7 +13,6 @@ header *{
 }
 
 header h1{
-    color: #000;
     width: 60vw;
     text-align: center;
 }
@@ -31,6 +31,18 @@ header a{
     background-color: #0f0;
 }
 
+.navegacion a{
+    position: relative;
+    top: 15px;
+}
+
+.background{
+    height: 10vh;
+    display: block;
+    background-color: #fff;
+    background-image: url(../task2/design1_image2.jpg);
+}
+
 body{
     background-color: #000;
     color: #fff;
@@ -41,7 +53,7 @@ body{
 }
 
 img{
-    width: 10vw;
+    width: 20vw;
     display: inline-block;
 }
 
@@ -52,18 +64,32 @@ img{
 
 .eventos article{
     padding: 1vh 1vw;
+    position: relative;
+    bottom: 8vh;
 }
 
 .info{
     display: inline-block;
+    position: relative;
+    bottom: 10vw;
 }
 
+.info p{
+    padding: 5px;
+}
 
 .contenedor_about{
     display: inline-block;
     height: 40vh;
 }
 
+.contenedor_about article{
+    padding: 5px;
+    position: relative;
+    bottom: 8vh;
+}
+
 .info_about{
     display: inline-block;
 }
+
