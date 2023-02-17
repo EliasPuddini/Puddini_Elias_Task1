@@ -8,7 +8,7 @@ header{
     height: 20vh;
 }
 header *{
-    display: inline-block;
+    display: inline;
     box-sizing: border-box;
 }
 
@@ -18,8 +18,8 @@ header h1{
 }
 
 header a{
-    margin-top: 5vh;
-    margin-left: 5vw;
+    margin-top: 3vh;
+    margin-left: 3vw;
     background-color: #00f;
     color: #fff;
     text-decoration: none;
@@ -158,6 +158,10 @@ img{
     border: 1px solid #fff;
 }
 
+.maps table td{
+    width: 30vw;
+}
+
 .contacto_num_y_email{
     display: flex;
     justify-content: space-around;
@@ -165,4 +169,117 @@ img{
 
 .uppercase{
     font-size: 1.2vw;
+}
+
+
+
+
+
+
+.formulario{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.form_name{
+    width: 100vw;
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.form_name div{
+    width: 50%;
+    display: inline;
+}
+
+.street{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 10px 0px 0px 0px;
+}
+
+.street input{
+    width: 35vw;
+}
+
+.city_zyp{
+    width: 80vw;
+    margin: 10px 0px;
+    text-align: center;
+}
+
+.city_zyp div{
+    padding: 5px 10px;
+    display: inline;
+}
+
+.city_zyp input{
+    width: 15vw;
+}
+
+.Education{
+    margin: 10px 0px 0px 0px;
+    width: 100vw;
+    text-align: center;
+}
+.Education input{
+    padding: 10px;
+}
+
+.contain_Near_School{
+    display: block;
+}
+
+.Near_School{
+    width: 40vw;
+    margin: 10px 0px;
+    text-align: center;
+}
+
+.Near_School label{
+    display: inline-block;
+    width: 40%;
+}
+
+.game_position{
+    width: 40vw;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.game_position label{
+    display: inline-block;
+    width: 40%;
+}
+
+.form_title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.description{
+    width: 100%;
+    display: inline;
+}
+
+.description p{
+    text-align: center;
+}
+
+.Guardian_date{
+    width: 100vw;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.Guardian_date div{
+    width: 50vw;
+    display: inline;
+}
+
+.enviar{
+    margin: 3vw;
 }
